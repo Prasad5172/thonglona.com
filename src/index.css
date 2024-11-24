@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  /* height: 100vh;
+  width: 100vw; */
+  margin: 0;
+  padding: 0;
+
+
+}
+
+
+
+.marginCss:nth-last-child(-n+3) {
+  margin-top: 20px;
+}
+
+
+.video-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.pinataVideo {
+  display: none;
+}
+
+.video-container {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border: 13px solid #E01E5A;
+  margin-bottom: 2rem;
+}
+
+.responsive-video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.video-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 20;
+}
+
+@media screen and (max-width: 560px) {
+  .video-responsive {
+    display: none;
+  }
+
+  .pinataVideo {
+    display: block;
+  }
+
+  .star-responsive {
+    top: 150px !important;
+  }
+}
+
+
+
+@media screen and (max-width: 764px) {
+
+  .imageCss {
+    width: 220px !important;
+    height: 332px !important;
+  }
+
+  .paddingClass {
+    padding-inline: 22px !important;
+  }
+
+  .Doughnut {
+    width: 375px;
+    aspect-ratio: 1 / 1;
+  }
+
+  .buttonPadding {
+    padding: 12px !important;
+    padding-inline: 35px !important;
+  }
+}
+
+
+@media screen and (min-width: 800px) {
+
+  .Doughnut {
+    width: 375px;
+    aspect-ratio: 1 / 1;
+  }
+
+
+}
