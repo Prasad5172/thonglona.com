@@ -11,9 +11,9 @@ const faqs = [
     answer: "ThongLana is a highly intelligent AI rabbit with a neural link implant by Elon Musk, known for its unique fashion choice of wearing a thong, symbolizing the fusion of technology and style.",
   },
   { question: "How does ThongLana combine technology and fashion?", answer: "By supporting a neural link and a thong, ThongLana merges advanced cognitive abilities with a playful fashion sense, representing futuristic enhancements with a sense of humor." },
-  { question: "What is Thongonomics?", answer: "Thongonomics is the concept behind ThongLana tokens, blending investment with humor and style, embodying the project's innovative and cheeky spirit." },
+  // { question: "What is Thongonomics?", answer: "Thongonomics is the concept behind ThongLana tokens, blending investment with humor and style, embodying the project's innovative and cheeky spirit." },
   { question: "How can I buy ThongLana tokens?", answer: "ThongLana tokens can be purchased through instructions on the ThongLana website, offering a unique investment in a future filled with laughter and bold fashion." },
-  { question: "What is LanaFlix and ThongMap?", answer: "LanaFlix likely features humorous content related to ThongLana, while ThongMap provides a guide to a world of humorous landmarks and meme-filled adventures in the ThongLana universe." },
+  // { question: "What is LanaFlix and ThongMap?", answer: "LanaFlix likely features humorous content related to ThongLana, while ThongMap provides a guide to a world of humorous landmarks and meme-filled adventures in the ThongLana universe." },
 ];
 
 const FaqItem = ({ faq }) => {

@@ -30,11 +30,11 @@ function App() {
         <Navbar />
         <HeroSection />
         <AboutSection />
-        <Tokenomics />
+        {/* <Tokenomics /> */}
         {/* <Highlights /> */}
-        <Buy />
+        {/* <Buy /> */}
         <Video />
-        <Roadmap />
+        {/* <Roadmap /> */}
         <Video2 />
         <CTA />
         <FAQs />

@@ -73,9 +73,9 @@ function Navbar() {
           <span className="mr-1 md:mr-1 lg:mr-4 mt-1">
             <ThemeSwitch />
           </span>
-          <span className="md:mr-1 lg:mr-3">
+          {/* <span className="md:mr-1 lg:mr-3">
             <SecondaryButton title="Whitepaper" rightIcon={DownloadIcon} />
-          </span>
+          </span> */}
           <PrimaryButton title="Get Token" />
         </div>
 
@@ -114,7 +114,7 @@ function Navbar() {
           <NavLink className="block text-center hover:text-[#E01E5A] hover:shadow-lg px-6 py-3" key={index} text={link.text} to={link.to} />
         ))}
         <div className="w-full flex flex-col justify-center space-y-2">
-          <SecondaryButton title="Whitepaper" rightIcon={DownloadIcon} />
+          {/* <SecondaryButton title="Whitepaper" rightIcon={DownloadIcon} /> */}
           <PrimaryButton title="Get Token" />
         </div>
       </div>

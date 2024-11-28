@@ -25,7 +25,7 @@ function AboutSection() {
           </div>
 
           <div className="flex justify-center md:justify-center items-center order-1 md:order-2 mb-14 md:mb-0">
-            <img className="w-[418px] h-[575px] imageCss" src="/img4.png " alt="About" />
+            <img className="w-[418px] h-[575px] imageCss" src="/pinkthonglana.jpeg " alt="About" />
           </div>
         </div>
 
