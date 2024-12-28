@@ -33,10 +33,10 @@ const links = [
     text: "About",
     to: "about",
   },
-  {
-    text: "Roadmap",
-    to: "roadmap",
-  },
+  // {
+  //   text: "Roadmap",
+  //   to: "roadmap",
+  // },
   {
     text: "FAQs",
     to: "faqs",
@@ -76,7 +76,10 @@ function Navbar() {
           {/* <span className="md:mr-1 lg:mr-3">
             <SecondaryButton title="Whitepaper" rightIcon={DownloadIcon} />
           </span> */}
-          <PrimaryButton title="Get Token" />
+          <a href="https://jup.ag/swap/SOL-CF8BETZz76dSX9jArYEaL3jutJoWe3UPLL9CR222pump" target="_blank">
+          <PrimaryButton title="Buy Now" />
+              </a>
+          
         </div>
 
         <div className="-mr-2 flex items-center md:hidden">

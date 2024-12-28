@@ -15,6 +15,8 @@ function HeroSection() {
             <span className="ext-md md:text-xl lg:text-2xl font-bold md:font-extrabold paddingClass">
               Unleashing laughter with every thread, where <span className="text-[#E01E5A]">memes</span><br></br>{" "} meet utility in the most cheeky and entertaining way on web3 🚀
             </span>
+            <span className="mb-0">Contract Address:</span>
+            <span className="text-[13px] sm:text-sm md:text-lg lg:text-lg">CF8BETZz76dSX9jArYEaL3jutJoWe3UPLL9CR222pump</span>
           </div>
           <div className="flex mt-16 space-x-4 w-full justify-center" >
             <img

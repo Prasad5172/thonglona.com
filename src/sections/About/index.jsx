@@ -3,6 +3,7 @@ import AboutStar from "../../assets/svgs/AboutStar";
 import OutlineButtonArrow from "../../components/Buttons/OutlineButtonArrow";
 import RadialBlur from "./RadialBlur";
 
+
 function AboutSection() {
   return (
     <section id="about">
@@ -20,7 +21,9 @@ function AboutSection() {
               Explore the world of Thonglana and witness the convergence of technology and fashion in a way that's never been seen before. Follow the journey of this AI-enhanced rabbit as it navigates through the realms of intelligence, innovation, and a touch of playful glamour. Thonglana is not just a rabbit; it's a symbol of the limitless possibilities when creativity, technology, and a hint of cheekiness come together!
             </p>
             <div className="flex justify-center md:justify-start">
-              <OutlineButtonArrow title="Learn More" />
+            <a href="https://jup.ag/swap/SOL-CF8BETZz76dSX9jArYEaL3jutJoWe3UPLL9CR222pump" target="_blank">
+                <OutlineButtonArrow title="Buy Now" />
+              </a>
             </div>
           </div>
 
@@ -43,7 +46,9 @@ function AboutSection() {
               Caught by the paparazzi in hilarious snapshots, because laughter knows no privacy!
             </p>
             <div className="flex justify-center md:justify-start">
-              <OutlineButtonArrow title="Learn More" />
+              <a href="https://jup.ag/swap/SOL-CF8BETZz76dSX9jArYEaL3jutJoWe3UPLL9CR222pump" target="_blank">
+                <OutlineButtonArrow title="Buy Now" />
+              </a>
             </div>
           </div>
         </div>
