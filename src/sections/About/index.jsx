@@ -28,13 +28,13 @@ function AboutSection() {
           </div>
 
           <div className="flex justify-center md:justify-center items-center order-1 md:order-2 mb-14 md:mb-0">
-            <img className="w-[418px] h-[575px] imageCss" src="/pinkthonglana.jpeg " alt="About" />
+            <img className="w-[418px] h-[575px] imageCss" src="/pinkthonglana.jpeg " alt="Thonglana with Pink Hoodie and Black Thong" />
           </div>
         </div>
 
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-2 mt-40 md:mx-40 mx-5" data-aos="fade-up">
           <div className="relative flex justify-center md:justify-start items-center mb-14 md:mb-0">
-            <img className="w-[380px] h-auto" src="/about-2.png " alt="Lana Content" />
+            <img className="w-[380px] h-auto" src="/about-2.png " alt="All Thonglana's images" />
             <div className="absolute z-20 h-full bg-gradient-to-tr from-white dark:from-[#0D0720] w-[100%] top-0"></div>
           </div>
 

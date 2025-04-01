@@ -35,7 +35,7 @@ const Content1 = () => {
   return (
     <div className="flex flex-col justify-center items-center py-10 h-[350px]">
       <div >
-        <img className="mt-10" src={phantom} alt="" />
+        <img className="mt-10" src={phantom} alt="phantom logo" />
       </div>
       <h5 className="text-lg font-extrabold mt-3">Phantom Wallet</h5>
       <p className="text-sm">A crypto wallet for DeFi & NFTs</p>
@@ -51,7 +51,7 @@ const Content2 = () => {
   return (
     <div className="flex flex-col justify-center items-center py-8 h-[350px]">
       <div className="my-10">
-        <img className="mt-10" src={image2} alt="" />
+        <img className="mt-10" src={image2} alt="Rainbow" />
       </div>
     </div>
   );
@@ -62,7 +62,7 @@ const Content3 = () => {
     <div className="flex flex-col justify-center items-center py-10 h-[350px]">
       <div className="mt-5 max-w-[270px] w-full">
         <div className="my-10">
-          <img className="mt-10" src={image3} alt="" />
+          <img className="mt-10" src={image3} alt="Thonglana In Jupiter" />
         </div>
 
         <BlueButton title="Swap" />
@@ -76,7 +76,7 @@ const Content4 = () => {
     <div className="flex flex-col justify-center items-center py-10 h-[350px]">
       <div className="mt-5 max-w-[270px] w-full">
         <div className="my-10">
-          <img className="mt-10" src={image4} alt="" />
+          <img className="mt-10" src={image4} alt="Thonglana,Phontom" />
         </div>
       </div>
     </div>
@@ -89,12 +89,12 @@ const Content5 = () => {
       <div className="relative flex flex-col">
         <div className="bg-[#F0F0F0] dark:bg-[#221B38] p-5 text-sm rounded-xl flex flex-col justify-start w-full min-w-[250px]">
           <div className="flex items-center">
-            You are paying <img className="h-5 w-5 mx-2" src="/solana.png" />
+            You are paying <img className="h-5 w-5 mx-2" src="/solana.png" alt="Solana Logo" />
             <span className="font-bold">SOL</span>{" "}
             <ChevronDown className="ml-1" size={14} />
           </div>
           <div className="flex items-center mt-3 font-bold">
-            <img className="h-10 w-10 mr-2" src="/solana.png" /> Solana{" "}
+            <img className="h-10 w-10 mr-2" src="/solana.png" alt="Solana Logo" /> Solana{" "}
             <div className="w-full flex justify-end">0</div>
           </div>
           <div></div>
@@ -102,12 +102,12 @@ const Content5 = () => {
 
         <div className="bg-[#F0F0F0] dark:bg-[#221B38] mt-5 p-5 text-sm rounded-xl flex flex-col justify-start w-full min-w-[250px]">
           <div className="flex items-center">
-            You are paying <img className="h-5 w-5 mx-2" src={image6} />
+            You are paying <img className="h-5 w-5 mx-2" src={image6} alt="Thonglana Name" />
             <span className="font-bold">SOL</span>{" "}
             <ChevronDown className="ml-1" size={14} />
           </div>
           <div className="flex items-center mt-3 font-bold">
-            <img className="h-10 w-10 mr-2" src={image6} /> Solana{" "}
+            <img className="h-10 w-10 mr-2" src={image6} alt="Thonglana Name" /> Solana{" "}
             <div className="w-full flex justify-end">0</div>
           </div>
           <div></div>
@@ -128,7 +128,7 @@ const Content6 = () => {
     <div className="flex flex-col justify-center items-center py-10 h-[350px]">
       <div className="mt-5 max-w-[270px] w-full">
         <div className="my-10">
-          <img className="mt-10" src={image6} alt="" />
+          <img className="mt-10" src={image6} alt="Thonglana Name" />
         </div>
 
       </div>
@@ -236,8 +236,8 @@ function Buy() {
       </div>
 
       <div className="absolute top-50  md:bottom-96 left-20 z-[-3]">
-        <div class="absolute bg-[#AE1EE0] filter blur-[125px] w-[270px] h-[220px] right-10 bottom-[150px]"></div>
-        <div class="absolute bg-[#E01E5A] filter blur-[125px] w-[270px] h-[220px] right-10 bottom-[50px]"></div>
+        <div className="absolute bg-[#AE1EE0] filter blur-[125px] w-[270px] h-[220px] right-10 bottom-[150px]"></div>
+        <div className="absolute bg-[#E01E5A] filter blur-[125px] w-[270px] h-[220px] right-10 bottom-[50px]"></div>
         <Star />
       </div>
     </div>

@@ -22,14 +22,17 @@ function HeroSection() {
             <img
               className="h-[200px] md:h-[340px] lg:h-[400px] w-[130px] md:w-[250px] lg:w-[320px] mt-10"
               src="/img5.png"
+              alt="White Thonglana At Party"
             />
             <img
               className="h-[200px] md:h-[340px] lg:h-[400px] w-[130px] md:w-[250px] lg:w-[320px] "
               src="/img6.png"
+              alt="White Thonglana At Universe"
             />
             <img
               className="h-[200px] md:h-[340px] lg:h-[400px] w-[130px] md:w-[250px] lg:w-[320px] mt-10"
               src="/img3.jpeg"
+              alt="White Thonglana At House"
             />
           </div>
           <div className="absolute z-20 bottom-0 h-[180px] md:h-[250px] lg:h-[320px] w-full bg-gradient-to-t from-[#fff] dark:from-[#0D0720]"></div>

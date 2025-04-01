@@ -10,7 +10,7 @@ const Footer = () => {
           <div className="flex flex-wrap md:flex-nowrap justify-center w-full  px-5 md:px-40">
             <div className="px-4">
               <h2 className="flex justify-center">
-                <img src={logo} alt="" />
+                <img src={logo} alt="Thonglana Logo"/>
               </h2>
               <p className="mt-2 text-md text-center text-gray-400">
                 Unleashing laughter with every thread, where <span className="text-[#E01E5A]">memes</span><br></br>{" "} meet utility in the most cheeky and entertaining way on web3 🚀

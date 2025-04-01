@@ -21,7 +21,7 @@ const FaqItem = ({ faq }) => {
 
   return (
     <div className="bg-white/50 dark:bg-[#191230]/50 rounded-2xl p-5">
-      <h3
+      <p
         className="py-4 cursor-pointer flex justify-between items-center text-lg font-bold"
         onClick={() => setIsOpen(!isOpen)}
       >
@@ -31,7 +31,7 @@ const FaqItem = ({ faq }) => {
         <span>
           {isOpen ? <ChevronUp className="text-[#E01E5A]" /> : <ChevronDown />}
         </span>
-      </h3>
+      </p>
       {isOpen && <p className="text-left py-4">{faq.answer}</p>}
     </div>
   );
