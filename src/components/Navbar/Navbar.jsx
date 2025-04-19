@@ -31,7 +31,7 @@ const links = [
   },
   {
     text: "About",
-    to: "/#about",
+    to: "#about",
   },
   // {
   //   text: "Roadmap",
@@ -39,7 +39,7 @@ const links = [
   // },
   {
     text: "FAQs",
-    to: "/#faqs",
+    to: "#faqs",
   },
 ];
 

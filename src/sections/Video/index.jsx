@@ -3,7 +3,6 @@ import Heading from "../../components/Heading";
 import HeadingPara from "../../components/Heading/HeadingPara";
 import Emphasis from "../../components/Text/Emphasis";
 import RadialBlur from "./RadialBlur";
-import lanaFlixVideo from '../../assets/video/lanaFlix.mp4'
 const VideoToPlay = ({ embedId }) => (
   <div className="flex flex-col gap-10 video-container">
     <div className="pinataVideo">

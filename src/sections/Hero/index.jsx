@@ -1,9 +1,18 @@
+import { Helmet } from "react-helmet";
 import HeroStar from "../../assets/svgs/HeroStar";
 import RadialBlur from "./RadialBlur";
 
 function HeroSection() {
   return (
     <>
+    <Helmet>
+        <title>Thonglana | Home</title>
+        <meta
+          name="description"
+          content="Discover Thonglana, the meme token on Solana! A fusion of AI, tech, and fun—join the movement today."
+        />
+        <link rel="canonical" href="https://thonglana.com" />
+      </Helmet>
       <section id='home'>
         <RadialBlur />
         <div className="relative z-10 mt-16 max-w-7xl mx-auto" data-aos="fade-up" >
